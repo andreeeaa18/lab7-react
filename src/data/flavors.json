@@ -1,0 +1,14 @@
+[
+  { "id": "chocolate", "label": "Chocolate" },
+  { "id": "vanilla", "label": "Vanilla" },
+  { "id": "strawberry", "label": "Strawberry" },
+  { "id": "pistachio", "label": "Pistachio" },
+  { "id": "lemon", "label": "Lemon" },
+  { "id": "caramel", "label": "Caramel" },
+  { "id": "matcha", "label": "Matcha" },
+  { "id": "rose", "label": "Rose" },
+  { "id": "coffee", "label": "Coffee" },
+  { "id": "hazelnut", "label": "Hazelnut" },
+  { "id": "blueberry", "label": "Blueberry" },
+  { "id": "coconut", "label": "Coconut" }
+]

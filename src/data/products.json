@@ -1,0 +1,12 @@
+{
+  "cookies": ["Chocolate Chip", "Oatmeal Raisin", "Peanut Butter", "Sugar Cookie"],
+  "biscuits": ["Buttermilk Biscuit", "Cheddar Biscuit"],
+  "cinnamon": ["Classic Cinnamon Roll", "Pecan Cinnamon Roll"],
+  "banana": ["Classic Banana Bread", "Walnut Banana Bread"],
+  "puffs": ["Cream Puff", "Chocolate Puff"],
+  "croissants": ["Butter Croissant", "Almond Croissant", "Chocolate Croissant"],
+  "macarons": ["Raspberry", "Pistachio", "Lemon", "Chocolate"],
+  "cheesecake": ["Classic Cheesecake", "Strawberry Cheesecake"],
+  "eclers": ["Chocolate Ecler", "Coffee Ecler"],
+  "unique": ["Seasonal Special", "Custom Creation"]
+}

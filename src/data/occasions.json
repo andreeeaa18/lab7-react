@@ -1,0 +1,11 @@
+[
+  { "id": "birthday", "label": "Birthday" },
+  { "id": "wedding", "label": "Wedding" },
+  { "id": "anniversary", "label": "Anniversary" },
+  { "id": "graduation", "label": "Graduation" },
+  { "id": "baby_shower", "label": "Baby Shower" },
+  { "id": "corporate", "label": "Corporate Event" },
+  { "id": "holiday", "label": "Holiday/Seasonal" },
+  { "id": "just_because", "label": "Just Because" },
+  { "id": "other", "label": "Other" }
+]

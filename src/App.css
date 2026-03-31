@@ -1,0 +1,360 @@
+body {
+  background: #fff0f6;
+  font-family: "Segoe UI", "Arial", sans-serif;
+  color: #4d2c3d;
+}
+
+.bakery-title {
+  color: #d72660;
+  font-size: 2rem;
+  margin-bottom: 0.5em;
+}
+
+.bakery-desc {
+  color: #a259e6;
+  margin-bottom: 1.5em;
+}
+
+.bakery-step {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 2px 12px #f7c6e0aa;
+  padding: 2em 2em 1em 2em;
+  margin-bottom: 1em;
+}
+
+.bakery-field {
+  margin-bottom: 1.2em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+
+.bakery-field label {
+  font-weight: 500;
+  color: #d72660;
+}
+
+select,
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea {
+  border: 1.5px solid #f7c6e0;
+  border-radius: 8px;
+  padding: 0.5em 0.8em;
+  font-size: 1em;
+  background: #fff6fa;
+  transition: border 0.2s;
+}
+
+select:focus,
+input:focus,
+textarea:focus {
+  border-color: #d72660;
+  outline: none;
+}
+
+.bakery-offmenu-btn {
+  background: #f7c6e0;
+  color: #d72660;
+  border: none;
+  border-radius: 8px;
+  padding: 0.5em 1.2em;
+  margin-left: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.bakery-offmenu-btn:hover {
+  background: #d72660;
+  color: #fff;
+}
+
+.bakery-radio-group {
+  display: flex;
+  gap: 1.5em;
+  margin-top: 0.3em;
+}
+.bakery-radio-label {
+  font-weight: 400;
+  color: #a259e6;
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.bakery-qty-input {
+  width: 80px;
+}
+
+.bakery-message-textarea {
+  min-height: 40px;
+  resize: vertical;
+}
+
+.bakery-loading {
+  color: #d72660;
+  font-weight: 600;
+  padding: 2em;
+}
+
+/* Stepper */
+.bakery-stepper {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+  gap: 0.2em 0;
+}
+.bakery-stepper-step {
+  display: flex;
+  align-items: center;
+}
+.bakery-stepper-circle {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: #fbeaf3;
+  color: #c07aa0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  border: 1.5px solid #f0cddf;
+  font-size: 1.1em;
+  box-shadow: 0 1px 4px #f7c6e033;
+  transition:
+    background 0.2s,
+    border 0.2s,
+    color 0.2s;
+  cursor: default;
+  user-select: none;
+}
+.bakery-stepper-circle.completed {
+  background: #e9d6f7;
+  color: #a259e6;
+  border: 1.5px solid #d5b0f0;
+  cursor: pointer;
+}
+.bakery-stepper-circle.completed:hover {
+  background: #d5b0f0;
+  color: #fff;
+}
+.bakery-stepper-circle.current {
+  background: #fff0f6;
+  color: #d72660;
+  border: 1.5px solid #f0a0c0;
+}
+.bakery-stepper-circle.skipped {
+  background: #f9f9f9;
+  color: #ccc;
+  border: 1.5px dashed #e0e0e0;
+  opacity: 0.6;
+}
+.bakery-stepper-label {
+  margin-left: 0.6em;
+  margin-right: 0.5em;
+  color: #a259e6;
+  font-weight: 500;
+}
+.bakery-stepper-label.skipped {
+  color: #ccc;
+  text-decoration: line-through;
+}
+.bakery-stepper-arrow {
+  margin: 0 0.8em;
+  color: #f0cddf;
+  font-size: 1.1em;
+}
+
+.bakery-preview-title {
+  color: #a259e6;
+  font-size: 1.15em;
+  font-weight: 700;
+  margin-bottom: 1.2em;
+  padding-bottom: 0.5em;
+  border-bottom: 1.5px solid #f7c6e0;
+}
+.bakery-preview-section {
+  margin-bottom: 0.85em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.1em;
+}
+.bakery-preview-label {
+  font-size: 0.78em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: #c07aa0;
+}
+.bakery-preview-value {
+  font-size: 0.97em;
+  color: #4d2c3d;
+  word-break: break-word;
+}
+.bakery-preview-divider {
+  border: none;
+  border-top: 1.5px dashed #f7c6e0;
+  margin: 1em 0;
+}
+
+.bakery-preview-row {
+  margin-bottom: 1em;
+  font-size: 1em;
+}
+
+.bakery-review-form {
+  background: none;
+  padding: 0;
+}
+.bakery-review-title {
+  color: #d72660;
+  margin-bottom: 1em;
+}
+.bakery-review-section {
+  margin-bottom: 1em;
+  font-size: 1em;
+}
+.bakery-submit-btn {
+  background: #a259e6;
+  color: #fff;
+  padding: 0.7em 2em;
+  border: none;
+  border-radius: 8px;
+  font-size: 1.1em;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 1em;
+  transition: background 0.2s;
+}
+.bakery-submit-btn:hover {
+  background: #d72660;
+}
+.bakery-review-success {
+  text-align: center;
+  padding: 2em;
+}
+
+input.error,
+select.error,
+textarea.error {
+  border-color: #d72660 !important;
+  background: #fff0f6;
+}
+.error-message {
+  color: #d72660;
+  font-size: 0.88em;
+  margin-top: 0.15em;
+  font-weight: 500;
+}
+
+.bakery-required {
+  color: #d72660;
+  margin-left: 2px;
+}
+.bakery-hint {
+  color: #b08ab0;
+  font-size: 0.88em;
+  font-weight: 400;
+}
+
+.bakery-radio-group--wrap {
+  flex-wrap: wrap;
+  gap: 0.6em;
+}
+.bakery-radio-card {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  background: #fbeaf3;
+  border: 1.5px solid #f0cddf;
+  border-radius: 8px;
+  padding: 0.45em 1em;
+  cursor: pointer;
+  font-weight: 400;
+  color: #4d2c3d;
+  transition:
+    background 0.15s,
+    border 0.15s;
+}
+.bakery-radio-card:has(input:checked) {
+  background: #f7c6e0;
+  border-color: #d72660;
+  color: #d72660;
+  font-weight: 600;
+}
+.bakery-radio-card input[type="radio"] {
+  accent-color: #d72660;
+}
+
+.bakery-checkbox-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6em;
+  margin-top: 0.3em;
+}
+.bakery-checkbox-card {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  background: #fbeaf3;
+  border: 1.5px solid #f0cddf;
+  border-radius: 8px;
+  padding: 0.4em 0.9em;
+  cursor: pointer;
+  font-weight: 400;
+  color: #4d2c3d;
+  transition:
+    background 0.15s,
+    border 0.15s;
+}
+.bakery-checkbox-card:has(input:checked) {
+  background: #e9d6f7;
+  border-color: #a259e6;
+  color: #a259e6;
+  font-weight: 600;
+}
+.bakery-checkbox-card input[type="checkbox"] {
+  accent-color: #a259e6;
+}
+
+.bakery-nav-back {
+  background: #fbeaf3;
+  color: #d72660;
+  border: 1.5px solid #f0cddf;
+  border-radius: 8px;
+  padding: 0.6em 1.6em;
+  font-size: 1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+.bakery-nav-back:hover {
+  background: #f7c6e0;
+}
+.bakery-nav-next {
+  background: #a259e6;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.6em 2em;
+  font-size: 1em;
+  font-weight: 600;
+  cursor: pointer;
+  transition:
+    background 0.2s,
+    opacity 0.2s;
+}
+.bakery-nav-next:hover:not(:disabled) {
+  background: #d72660;
+}
+.bakery-nav-next:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+aside {
+  padding-right: 10px;
+}

@@ -1,0 +1,4 @@
+[
+  { "id": "pickup", "label": "Pickup from bakery" },
+  { "id": "delivery", "label": "Delivery to my address" }
+]

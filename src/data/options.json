@@ -1,0 +1,9 @@
+[
+  { "id": "gluten_free", "label": "Gluten Free" },
+  { "id": "vegan", "label": "Vegan" },
+  { "id": "nut_free", "label": "Nut Free" },
+  { "id": "sugar_free", "label": "Sugar Free" },
+  { "id": "lactose_free", "label": "Lactose Free" },
+  { "id": "egg_free", "label": "Egg Free" },
+  { "id": "halal", "label": "Halal" }
+]

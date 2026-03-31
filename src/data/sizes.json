@@ -1,0 +1,7 @@
+[
+  { "id": "individual", "label": "Individual (1 piece)" },
+  { "id": "small", "label": "Small (4-6 pieces)" },
+  { "id": "medium", "label": "Medium (8-12 pieces)" },
+  { "id": "large", "label": "Large (16-20 pieces)" },
+  { "id": "celebration", "label": "Celebration Cake / Showpiece" }
+]

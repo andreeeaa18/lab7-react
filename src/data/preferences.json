@@ -1,0 +1,24 @@
+{
+  "sweetness": [
+    { "id": "light", "label": "Light & subtle" },
+    { "id": "medium", "label": "Just right" },
+    { "id": "extra", "label": "Extra sweet" }
+  ],
+  "servingTemp": [
+    { "id": "warm", "label": "Warm" },
+    { "id": "room", "label": "Room temperature" },
+    { "id": "chilled", "label": "Chilled / cold" }
+  ],
+  "extraTopping": [
+    { "id": "none", "label": "None" },
+    { "id": "powdered_sugar", "label": "Powdered sugar" },
+    { "id": "chocolate", "label": "Chocolate drizzle" },
+    { "id": "fruit", "label": "Fresh fruit" },
+    { "id": "nuts", "label": "Crushed nuts" }
+  ],
+  "packaging": [
+    { "id": "beautiful", "label": "Beautifully packed" },
+    { "id": "simple", "label": "Simple packed" }
+  ],
+  "quantityPresets": [3, 6, 9]
+}

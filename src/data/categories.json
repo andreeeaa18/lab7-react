@@ -1,0 +1,12 @@
+[
+  { "id": "cookies", "name": "Cookies" },
+  { "id": "biscuits", "name": "Biscuits" },
+  { "id": "cinnamon", "name": "Cinnamon Rolls" },
+  { "id": "banana", "name": "Banana Bread" },
+  { "id": "puffs", "name": "Puffs" },
+  { "id": "croissants", "name": "Croissants" },
+  { "id": "macarons", "name": "Macarons" },
+  { "id": "cheesecake", "name": "Cheesecake" },
+  { "id": "eclers", "name": "Eclers" },
+  { "id": "unique", "name": "Unique Desserts" }
+]
